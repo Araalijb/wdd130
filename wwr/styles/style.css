@@ -200,23 +200,6 @@ main section img{
     grid-column: 1/11;
     grid-row: 4/9;
 }
-
-.salom-river {
-    float: right;
-    grid-column: 8/10;
-    grid-row: 2/4;
-    margin: 50px;
-
-}
-
-.text{
-    margin: 50px;
-}
-
-.rafting{
-    grid-column: 2/10;
-    width: 100%;
-}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
