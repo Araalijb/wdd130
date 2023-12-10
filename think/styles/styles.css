@@ -70,14 +70,15 @@ nav{
     justify-content: space-around;
 }
 
+nav a:hover{
+    color: #489FB5;
+    background-color: #114B56;
+}
 nav a{
     text-align: center;
     color: #EDE7E3;
     text-decoration: none;
     padding: 35px;
-}
-.menu a:hover{
-    color: #FF007B;
 }
 .home-title{
     color: #ffffff;
@@ -110,17 +111,18 @@ footer{
 footer a{
     color: #EDE7E3;
     text-decoration: none;
+    
 }
 footer a:hover{
-    background-color:#fcfeff;
-    color: #ffffff;
+    background-color:#114B56;
+    color: #114B56;
 }
 .icon {
     width: 80px;
     padding: 10px;
 }
 .logo{
-    width: 80px;
+    width: 100px;
 }
 footer p{
     font-size: 1.2em;
@@ -139,6 +141,7 @@ footer p a:hover{
 .card-img{
     border: 5px solid#ffffff;  
     width: 100%; 
+    margin-top: 100px;
     
 } 
 .card-img1{
@@ -146,14 +149,14 @@ footer p a:hover{
     width: 150%;
     margin-right: 700px;
     float: right;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .card-img2{
     border: 5px solid#ffffff;  
     width: 150%;
     margin-right: 700px;
     float: right;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 .card-img3{
     border: 5px solid#ffffff;  
@@ -165,8 +168,8 @@ footer p a:hover{
 .card-img4{
     border: 5px solid#ffffff;  
     width: 100%;
-    margin-right:800px;
-    margin-top: 50px;
+    margin-right:900px;
+    margin-top: -500px;
     float: right;
    
 }
@@ -189,6 +192,12 @@ h2{
 footer .social img{
     padding-top: 15px;
 }
+
+footer a:hover{
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
 main section img{
     box-sizing: border-box;
 }
@@ -200,63 +209,85 @@ main section img{
     margin-right: 200px;
 }
 .text-area{
-    font-size:large;
+    font-size:medium;
     margin-top: 200px;
-    margin-left: 150px;
-    margin-right: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
     color: #ffffff;
 }
-.text-area6{
-        font-size:large;
-        margin-top: 100px;
-        margin-left: 150px;
-        margin-right: 200px;
-        color: #ffffff;
+
+.text-area0{
+    font-size:large;
+    margin-top: -300px;
+    margin-left: 600px;
+    color: #ffffff;
+    float: left;
 }
 .text-area1{
     font-size:medium;
-    margin-top: 150px;
-    margin-left: 800px;
+    margin-top: -300px;
+    margin-left: 700px;
     color: #ffffff;
+    padding-left: 5%;
     text-align: justify;
     float: left;
+    width: 40%;
 
+    
 }
 .text-area2{
     font-size:medium;
-    margin-top: 150px;
-    margin-left:800px;
+    margin-top: -1000px;
+    margin-left: 800px;
     color: #ffffff;
     text-align: justify;
+    width: 40%;
     float: left;
+    
 }
 .text-area3{
     font-size:medium;
-    margin-top: 100px;
-    color: #ffffff;
-    text-align: justify;
+    color: #EDE7E3;
+    margin-top: 200px;
+    width: 20%;
+    margin-left:600px
 }
 .text-area4{
         font-size:medium;
-        margin-top: 120px;
-        margin-left: 150px;
-        margin-right: 200px;
-        color: #ffffff;  
+        margin-top: -500px;
+        margin-left: 500px;
+        width: 20%;
+        text-align: justify;
+        color: #ffffff;
+        float:inline-start;
+    
 }
 .text-area5{
-    font-size: medium;
-    margin-top: 120px;
-    margin-left: 150px;
-    margin-right: 200px;
-    color: #ffffff;
-    text-align: justify;
+    font-size:medium;
+    color: #EDE7E3;
+    margin-top: 50px;
+    width: 20%;
+    margin-left:600px
 }
+.text-area6{
+    font-size:medium;
+    margin-top: -250px;
+    margin-left: 500px;
+    width: 20%;
+    text-align: justify;
+    color: #ffffff;
+    float:inline-start;
+}
+    
 .lower-text{
+
     margin-top: 50px;
     margin-right: 100px;
     margin-left: 100px;
     font-size:medium;
     text-align: justify;
+    float: right;
+
 }
 .text-new{
     color: #ffffff;
@@ -353,10 +384,6 @@ form {
     margin-top: 100px;
     
 }
-.home-text1{
-
-}
-    
 .video-make{
     grid-row: 2/3;
     grid-column: 1/11;
@@ -364,7 +391,8 @@ form {
 }
 .video-image{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 200px;
+
 }
 .photo-person{
     float: left;
@@ -374,7 +402,7 @@ form {
     margin-left: 100px;
 }
 .photo-image{
-    width: 400px;
+    width: 500px;
     margin-top: 50px;
     border: 5px solid #ffffff;
 
@@ -388,13 +416,13 @@ form {
     width: 400px;
     margin-top: 100px;
     border: 5px solid #ffffff;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 .photo-image3{
     width: 400px;
     margin-top: 100px;
     border: 5px solid #ffffff;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 .photo-person1{
   margin-right: 150px;
@@ -407,7 +435,8 @@ form {
 }
 .photo-image4{
     width: 400px;
-    margin-top: 0;
+    margin-top: 50px;
+    margin-left: 500px;
     border: 5px solid #ffffff;
     align-items: right;
     float: right;
